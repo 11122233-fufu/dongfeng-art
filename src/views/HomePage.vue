@@ -14,7 +14,7 @@ const bannerGroups = [
         line1: '机源四方',
         line2: '农墨传芳',
         text: '东丰农民画以最直白的笔触、最浓烈的色彩，记录东北乡村的劳作与生活。',
-        image: '/images/banner/painting01.webp',
+        image: 'images/banner/painting01.webp',
         alt: '东丰农民画经典作品一',
         color: '#C53030',
         accent: '#F6E05E',
@@ -24,7 +24,7 @@ const bannerGroups = [
         line1: '一纸丹青',
         line2: '画尽人间烟火',
         text: '从春耕到秋收、从年节到日常，农民用画笔讲述黑土地上的故事。',
-        image: '/images/banner/painting02.webp',
+        image: 'images/banner/painting02.webp',
         alt: '东丰农民画经典作品二',
         color: '#B83230',
         accent: '#F6AD55',
@@ -34,7 +34,7 @@ const bannerGroups = [
         line1: '扎根乡土',
         line2: '向阳生长',
         text: '每一幅农民画都是生活的切片，朴实、鲜活、充满生命力。',
-        image: '/images/banner/painting03.webp',
+        image: 'images/banner/painting03.webp',
         alt: '东丰农民画经典作品三',
         color: '#9B2C2C',
         accent: '#FBBF24',
@@ -49,7 +49,7 @@ const bannerGroups = [
         line1: '从纸上到墙上',
         line2: '每一幅都有来处',
         text: '走进画馆，看见原作。那些笔触的厚度、颜色的堆积，只有站在画前才能感受。',
-        image: '/images/banner/gallery01.webp',
+        image: 'images/banner/gallery01.webp',
         alt: '东丰农民画馆展厅实景一',
         color: '#2C5F2C',
         accent: '#F5A623',
@@ -59,7 +59,7 @@ const bannerGroups = [
         line1: '走近原作',
         line2: '感受笔触的温度',
         text: '展厅内百余幅作品陈列，从经典到新作，呈现农民画的完整脉络。',
-        image: '/images/banner/gallery02.webp',
+        image: 'images/banner/gallery02.webp',
         alt: '东丰农民画馆展厅实景二',
         color: '#1E4A2E',
         accent: '#E09B55',
@@ -69,7 +69,7 @@ const bannerGroups = [
         line1: '画馆之内',
         line2: '匠心传承不息',
         text: '这里不仅是展示空间，更是创作、教学、交流的非遗传承核心阵地。',
-        image: '/images/banner/gallery03.webp',
+        image: 'images/banner/gallery03.webp',
         alt: '东丰农民画馆展厅实景三',
         color: '#2A4A3A',
         accent: '#D7A348',
@@ -84,7 +84,7 @@ const bannerGroups = [
         line1: '我们去现场',
         line2: '找回画里的温度',
         text: '走进东丰，边看边问边记录，让真实的人站到故事中央。',
-        image: '/images/banner/team01.webp',
+        image: 'images/banner/team01.webp',
         alt: '社会实践团队在东丰农民画馆合影',
         color: '#2C1810',
         accent: '#E53E3E',
@@ -94,7 +94,7 @@ const bannerGroups = [
         line1: '深入村落',
         line2: '聆听传承故事',
         text: '拜访老艺人，走进工作坊，用镜头和笔记记录正在发生的传承。',
-        image: '/images/banner/team02.webp',
+        image: 'images/banner/team02.webp',
         alt: '团队成员走访传承人工坊',
         color: '#3A2018',
         accent: '#F56565',
@@ -104,7 +104,7 @@ const bannerGroups = [
         line1: '十人同行',
         line2: '共赴非遗之约',
         text: '农墨传芳小队，用脚步丈量黑土地，用行动传播非遗之美。',
-        image: '/images/banner/team03.webp',
+        image: 'images/banner/team03.webp',
         alt: '农墨传芳小队在东丰走访记录',
         color: '#1E1010',
         accent: '#FC8181',
@@ -299,7 +299,7 @@ onUnmounted(() => {
             <b class="font-bold">东丰农民画</b>，始于 20 世纪 50 年代的东北乡土民间绘画。农民一手拿锄头、一手拿画笔，把日常劳作、年节喜庆、邻里故事都画进纸里。2008 年，它被列入国家级非物质文化遗产名录——从此不只是村里墙上的画，更是中国人共同的文化记忆。
           </p>
           <figure class="rounded-xl overflow-hidden shadow-md">
-            <img :src="'/images/home/intro.webp'" alt="东丰农民画创作场景或展馆实景" loading="lazy" class="w-full h-56 object-cover" />
+            <img :src="'images/home/intro.webp'" alt="东丰农民画创作场景或展馆实景" loading="lazy" class="w-full h-56 object-cover" />
           </figure>
           <RouterLink
             to="/culture"

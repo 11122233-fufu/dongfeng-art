@@ -93,30 +93,30 @@ const activeTab = ref<'video' | 'audio' | 'photo'>('video')
             基础产业讲解
           </p>
 
-          <!-- ★ 音频1：此播放器对应 audio1.m4a，手动将下方 src="" 改为 src="/audio/audio1.m4a" 即可播放 -->
+          <!-- ★ 音频1：此播放器对应 audio1.m4a，手动将下方 src="" 改为 src="audio/audio1.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio1.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio1.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio1.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio1.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画基础介绍</h4>
             <p class="text-xs text-text-muted leading-relaxed">介绍东丰农民画属地、艺术属性，融合汉满关东民俗的创作风格；梳理起源：1970年代初红石乡红榔头村农民自发组建绘画小组；罗列关键荣誉：1988年获评"中国农民画艺术之乡"、2009年列入吉林省级非遗；重大展出事件：2014年联合国总部精品展、2020年天才妈妈农民画梦想工坊落地，简要点明产业化开端。</p>
           </div>
 
-          <!-- ★ 音频2：此播放器对应 audio2.m4a，手动将下方 src="" 改为 src="/audio/audio2.m4a" 即可播放 -->
+          <!-- ★ 音频2：此播放器对应 audio2.m4a，手动将下方 src="" 改为 src="audio/audio2.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio2.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio2.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio2.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio2.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画艺术风格与称号</h4>
             <p class="text-xs text-text-muted leading-relaxed">补充细化艺术特点：形象质朴、色彩明快、构图饱满，兼具凝重和谐的关东风情，黑土民俗特色鲜明；扩充县域文化称号：中国农民画之乡、现代民间绘画画乡、民间文化艺术之乡；明确其作为吉林特色民间绘画、中国民间艺术重要分支的定位，补充非遗基础定位介绍。</p>
           </div>
 
-          <!-- ★ 音频3：此播放器对应 audio3.m4a，手动将下方 src="" 改为 src="/audio/audio3.m4a" 即可播放 -->
+          <!-- ★ 音频3：此播放器对应 audio3.m4a，手动将下方 src="" 改为 src="audio/audio3.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio3.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio3.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio3.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio3.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画产业化发展记录</h4>
@@ -133,30 +133,30 @@ const activeTab = ref<'video' | 'audio' | 'photo'>('video')
             艺术赏析讲解
           </p>
 
-          <!-- ★ 音频4：此播放器对应 audio4.m4a，手动将下方 src="" 改为 src="/audio/audio4.m4a" 即可播放 -->
+          <!-- ★ 音频4：此播放器对应 audio4.m4a，手动将下方 src="" 改为 src="audio/audio4.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio4.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio4.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio4.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio4.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画艺术根源与创作底色</h4>
             <p class="text-xs text-text-muted leading-relaxed">点明东丰农民画为黑土地孕育的乡土艺术瑰宝，根植本土乡村；创作者均为本地农民，无专业绘画束缚，以真实农耕生活为创作素材；作品真实还原关东民俗、农事劳作、乡村岁月变迁，阐述艺术来源于民间生活的核心特质。</p>
           </div>
 
-          <!-- ★ 音频5：此播放器对应 audio5.m4a，手动将下方 src="" 改为 src="/audio/audio5.m4a" 即可播放 -->
+          <!-- ★ 音频5：此播放器对应 audio5.m4a，手动将下方 src="" 改为 src="audio/audio5.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio5.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio5.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio5.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio5.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画数十年发展蜕变历程</h4>
             <p class="text-xs text-text-muted leading-relaxed">梳理发展蜕变脉络：从早年乡村自娱自乐的民间涂鸦，逐步成长为省级、国家级非遗；本土画师创作聚焦三大主题：关东农耕、鹿乡地域风情、百姓日常幸福生活；讲述小小乡村绘画走出县城、走向全国的发展之路，记录乡村民俗与乡村发展变迁。</p>
           </div>
 
-          <!-- ★ 音频6：此播放器对应 audio6.m4a，手动将下方 src="" 改为 src="/audio/audio6.m4a" 即可播放 -->
+          <!-- ★ 音频6：此播放器对应 audio6.m4a，手动将下方 src="" 改为 src="audio/audio6.m4a" 即可播放 -->
           <div class="bg-white rounded-xl p-4 mb-4 shadow-sm relative">
-            <!-- src 已指向 /audio/audio6.m4a，需确保 public/audio/ 下有对应文件 -->
-            <audio controls preload="none" src="/audio/audio6.m4a" class="w-full mb-3 mt-1">
+            <!-- src 已指向 audio/audio6.m4a，需确保 public/audio/ 下有对应文件 -->
+            <audio controls preload="none" src="audio/audio6.m4a" class="w-full mb-3 mt-1">
               您的浏览器不支持音频播放。
             </audio>
             <h4 class="font-bold text-sm mb-1">东丰农民画当代文化价值</h4>

@@ -3,10 +3,10 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 /* ==================== 图片路径 ==================== */
 const imageList = [
-  '/puzzle/pic-01.png',
-  '/puzzle/pic-02.png',
-  '/puzzle/pic-03.png',
-  '/puzzle/pic-04.png',
+  'puzzle/pic-01.png',
+  'puzzle/pic-02.png',
+  'puzzle/pic-03.png',
+  'puzzle/pic-04.png',
 ]
 
 /* ==================== 状态 ==================== */

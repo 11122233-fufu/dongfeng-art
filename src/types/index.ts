@@ -9,8 +9,8 @@ export interface Painting {
   technique: string
   material: string
   images: {
-    thumbnail: string  // /paintings/thumb/p001.webp
-    full: string       // /paintings/full/p001.webp
+    thumbnail: string  // paintings/thumb/p001.webp
+    full: string       // paintings/full/p001.webp
   }
   audioUrl: string
   analysis: string

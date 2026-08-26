@@ -10,7 +10,7 @@
       "name": "王泽豪",
       "role": "队长｜机械 2510 班",
       "initials": "王",
-      "avatar": "/assets/team/wangzehao.jpg",
+      "avatar": "assets/team/wangzehao.jpg",
       "text": "热爱唱歌、弹吉他、打羽毛球。希望团队成员齐心协力、踏实行动，用心完成实践任务，为东丰农民画的传承创新贡献力量。",
       "color": "#b33b2e"
     },
@@ -18,7 +18,7 @@
       "name": "王品淇",
       "role": "副队长｜机械 2506 班",
       "initials": "王",
-      "avatar": "/assets/team/wangpinqi.jpg",
+      "avatar": "assets/team/wangpinqi.jpg",
       "text": "性格开朗，做事踏实靠谱，喜欢主动沟通协调。对乡土文化和社会实践充满热情，希望和大家一起在东丰这片黑土地上共同成长进步。",
       "color": "#8b3a3a"
     },
@@ -26,7 +26,7 @@
       "name": "张鸾懿",
       "role": "技术｜智能 2503 班",
       "initials": "张",
-      "avatar": "/assets/team/zhangluanyi.jpg",
+      "avatar": "assets/team/zhangluanyi.jpg",
       "text": "性格开朗，闲暇时爱听歌、运动。很高兴加入农墨传芳小队，期待在此尽己所能，与各位携手同行、凝心聚力。",
       "color": "#5c4a6e"
     },
@@ -34,7 +34,7 @@
       "name": "周国盛",
       "role": "技术｜自动化2506班",
       "initials": "周",
-      "avatar": "/assets/team/zhouguosheng.jpg",
+      "avatar": "assets/team/zhouguosheng.jpg",
       "text": "来自湖南长沙，做事耐心踏实、乐于动手钻研。希望尽己所能完成任务，和伙伴们互帮互助、共同成长。",
       "color": "#2c5f7c"
     },
@@ -42,7 +42,7 @@
       "name": "左贵东",
       "role": "摄影剪辑｜机械2506班",
       "initials": "左",
-      "avatar": "/assets/team/zuoguidong.jpg",
+      "avatar": "assets/team/zuoguidong.jpg",
       "text": "来自黑龙江，喜欢运动和旅游，充满活力。希望和大家在实践中并肩前行，用镜头记录东丰农民画的真实瞬间。",
       "color": "#b16b34"
     },
@@ -50,7 +50,7 @@
       "name": "阿米娜",
       "role": "宣传｜大数据2505班",
       "initials": "阿",
-      "avatar": "/assets/team/amina.jpg",
+      "avatar": "assets/team/amina.jpg",
       "text": "来自新疆乌鲁木齐，在团队中担任宣传工作。非常开心加入农墨传芳小队，期待和大家一同走进吉林，探寻农民画的独特魅力。",
       "color": "#386d68"
     },
@@ -58,7 +58,7 @@
       "name": "高蕴十",
       "role": "宣传｜土木2504班",
       "initials": "高",
-      "avatar": "/assets/team/gaoyunshi.jpg",
+      "avatar": "assets/team/gaoyunshi.jpg",
       "text": "来自吉林辽源，擅长播音主持和绘画。很高兴能加入农墨传芳，希望与大家共同进步，用声音和画笔传播非遗文化。",
       "color": "#8b6744"
     },
@@ -66,7 +66,7 @@
       "name": "张家晨",
       "role": "后勤｜机械 2505 班",
       "initials": "张",
-      "avatar": "/assets/team/zhangjiachen.jpg",
+      "avatar": "assets/team/zhangjiachen.jpg",
       "text": "来自吉林四平，热爱摄影记录生活、喜欢铅笔画创作。性格沉稳踏实、待人真诚。愿深耕传统文化创新传播，和大家共同收获充实的实践经历。",
       "color": "#4a6b5d"
     },
@@ -74,7 +74,7 @@
       "name": "张城玮",
       "role": "外联｜机械 2510 班",
       "initials": "张",
-      "avatar": "/assets/team/zhangchengwei.jpg",
+      "avatar": "assets/team/zhangchengwei.jpg",
       "text": "热爱唱歌、打球。很高兴能参与本次社会实践，接下来将认真对待每一项工作，做好对外联络，期待和大家共同进步。",
       "color": "#c17a3e"
     },
@@ -82,7 +82,7 @@
       "name": "刘锦澄",
       "role": "美术｜大数据2505班",
       "initials": "刘",
-      "avatar": "/assets/team/liujincheng.jpg",
+      "avatar": "assets/team/liujincheng.jpg",
       "text": "承担美术相关事务。有幸走进东丰这片农民画之乡，愿以所长细细品读乡土笔墨里的匠心，和大家一起守护与传播这份珍贵的民间艺术。",
       "color": "#5e557e"
     }

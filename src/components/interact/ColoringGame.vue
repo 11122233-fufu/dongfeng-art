@@ -34,10 +34,10 @@ function ensureLayers() {
 /* ==================== 4张线稿素材 ==================== */
 interface LineTemplate { name: string; src: string }
 const lineTemplates: LineTemplate[] = [
-  { name: '\u{1F3A8} 硕果丰收', src: '/coloring/line-01.jpg' },
-  { name: '\u{1F3A8} 民俗舞狮', src: '/coloring/line-02.jpg' },
-  { name: '\u{1F3A8} 瑞鹿呈祥', src: '/coloring/line-03.jpg' },
-  { name: '\u{1F3A8} 乡俗童趣', src: '/coloring/line-04.jpg' },
+  { name: '\u{1F3A8} 硕果丰收', src: 'coloring/line-01.jpg' },
+  { name: '\u{1F3A8} 民俗舞狮', src: 'coloring/line-02.jpg' },
+  { name: '\u{1F3A8} 瑞鹿呈祥', src: 'coloring/line-03.jpg' },
+  { name: '\u{1F3A8} 乡俗童趣', src: 'coloring/line-04.jpg' },
 ]
 
 /* ==================== 预加载图片缓存 ==================== */

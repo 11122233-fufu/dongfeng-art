@@ -2,9 +2,9 @@
 import { ref } from 'vue'
 
 const products = [
-  { url: '/media/creative/mascot.jpg', label: '吉祥物', tab: 'mascot' as const },
-  { url: '/media/creative/keychain.jpg', label: '钥匙扣', tab: 'keychain' as const },
-  { url: '/media/creative/magnet.jpg', label: '冰箱贴', tab: 'magnet' as const },
+  { url: 'media/creative/mascot.jpg', label: '吉祥物', tab: 'mascot' as const },
+  { url: 'media/creative/keychain.jpg', label: '钥匙扣', tab: 'keychain' as const },
+  { url: 'media/creative/magnet.jpg', label: '冰箱贴', tab: 'magnet' as const },
 ]
 
 const activeTab = ref<'mascot' | 'keychain' | 'magnet'>('mascot')
