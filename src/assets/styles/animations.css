@@ -1,0 +1,165 @@
+/* ============================================================
+   东丰农民画 — 动画系统（对标 ten.o0.work 风格）
+   仅使用 opacity + transform，GPU 加速，零重排重绘
+   ============================================================ */
+
+/* ========== ① CSS 变量：集中调参中心 ========== */
+:root {
+  /* 滚动入场：时长 / 缓动 / 位移距离 */
+  --anim-duration: 0.6s;
+  --anim-easing: cubic-bezier(0.16, 1, 0.3, 1);  /* 苹果风格缓出 */
+  --anim-distance: 30px;                           /* 淡入滑动距离 */
+  --anim-scale-start: 0.92;                        /* 缩放起点 */
+
+  /* 卡片悬浮：上浮距离 / 放大倍率 */
+  --hover-lift: -6px;
+  --hover-scale: 1.03;
+  --hover-duration: 0.35s;
+  --hover-easing: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* 阴影层级 */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.10);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.14);
+  --shadow-glow: 0 0 36px rgba(197,48,48,0.12);
+}
+
+/* =================================================================
+   ② 滚动入场动画
+   原理：元素初始 opacity:0 + transform 偏移；
+         JS IntersectionObserver 进入视口后添加 .is-visible；
+         通过 transition 平滑过渡到 opacity:1 + transform:none
+   ================================================================= */
+
+/* ---- 基类：所有入场动画共享 ---- */
+.anim-fade-up,
+.anim-fade-in,
+.anim-fade-left,
+.anim-fade-right,
+.anim-scale-in {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: var(--anim-duration);
+  transition-timing-function: var(--anim-easing);
+  will-change: opacity, transform;
+}
+
+/* ---- 各方向初始偏移 ---- */
+.anim-fade-up    { transform: translateY(var(--anim-distance)); }
+.anim-fade-in    { /* 仅淡入，无位移 */ }
+.anim-fade-left  { transform: translateX(calc(-1 * var(--anim-distance))); }
+.anim-fade-right { transform: translateX(var(--anim-distance)); }
+.anim-scale-in   { transform: scale(var(--anim-scale-start)); }
+
+/* ---- 进入视口后 → 归位 ---- */
+.anim-fade-up.is-visible,
+.anim-fade-in.is-visible,
+.anim-fade-left.is-visible,
+.anim-fade-right.is-visible,
+.anim-scale-in.is-visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* ---- 交错延迟工具类 ---- */
+.anim-delay-100 { transition-delay: 0.10s; }
+.anim-delay-200 { transition-delay: 0.20s; }
+.anim-delay-300 { transition-delay: 0.30s; }
+.anim-delay-400 { transition-delay: 0.40s; }
+.anim-delay-500 { transition-delay: 0.50s; }
+.anim-delay-600 { transition-delay: 0.60s; }
+.anim-delay-700 { transition-delay: 0.70s; }
+.anim-delay-800 { transition-delay: 0.80s; }
+
+/* =================================================================
+   ③ Hover 微动效
+   ================================================================= */
+
+/* 3.1 卡片悬浮上浮 + 阴影加深 */
+.hover-lift {
+  transition:
+    transform var(--hover-duration) var(--hover-easing),
+    box-shadow var(--hover-duration) var(--hover-easing);
+  will-change: transform;
+  box-shadow: var(--shadow-sm);
+}
+.hover-lift:hover {
+  transform: translateY(var(--hover-lift));
+  box-shadow: var(--shadow-lg);
+}
+
+/* 3.2 图片悬浮放大（裁剪容器 + img 加此类） */
+.hover-scale-img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+.hover-scale-img:hover {
+  transform: scale(var(--hover-scale));
+}
+
+/* 3.3 红色主题发光上浮（用于深色背景区卡片） */
+.hover-glow {
+  transition:
+    transform var(--hover-duration) var(--hover-easing),
+    box-shadow var(--hover-duration) var(--hover-easing);
+  will-change: transform;
+}
+.hover-glow:hover {
+  transform: translateY(var(--hover-lift));
+  box-shadow: var(--shadow-glow), var(--shadow-md);
+}
+
+/* 3.4 底部下划线滑入（用于文字链接） */
+.hover-line {
+  position: relative;
+  text-decoration: none;
+}
+.hover-line::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: currentColor;
+  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-line:hover::after {
+  width: 100%;
+}
+
+/* 3.5 箭头平移（用于 "→" 箭头） */
+.hover-arrow {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-arrow-group:hover .hover-arrow {
+  transform: translateX(4px);
+}
+
+/* =================================================================
+   ④ 无障碍：尊重用户 reduced-motion 设置
+   ================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up,
+  .anim-fade-in,
+  .anim-fade-left,
+  .anim-fade-right,
+  .anim-scale-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .hover-lift:hover,
+  .hover-glow:hover,
+  .hover-scale-img:hover {
+    transform: none !important;
+  }
+
+  .hover-lift,
+  .hover-glow,
+  .hover-scale-img {
+    will-change: auto;
+  }
+}

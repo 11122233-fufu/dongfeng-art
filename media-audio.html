@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>多媒体专区 · 东丰农民画社会实践</title>
+  <style>
+    /* ==================== 基础重置 & 字体 ==================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      background: #fdf8f1;
+      color: #3e3232;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ==================== 页面容器 ==================== */
+    .page-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+
+    /* ==================== 顶部通栏 ==================== */
+    .page-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .page-header .subtitle-tag {
+      display: inline-block;
+      font-size: 13px;
+      letter-spacing: 0.25em;
+      color: #b55b3c;
+      background: #fef0e6;
+      padding: 4px 18px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .page-header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #4a2c1a;
+      margin-bottom: 10px;
+    }
+    .page-header .intro-text {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 15px;
+      color: #6b5544;
+      line-height: 1.8;
+    }
+
+    /* ==================== 分类标签展示（仅视觉） ==================== */
+    .category-tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+    .category-tags span {
+      font-size: 13px;
+      padding: 5px 16px;
+      border-radius: 16px;
+      background: #f7ede0;
+      color: #8b5e3c;
+      border: 1px solid #e0ccb3;
+    }
+
+    /* ==================== 双栏布局 ==================== */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==================== 专栏卡片 ==================== */
+    .column {
+      border-radius: 14px;
+      padding: 28px 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    .column-left {
+      background: #faf3e6;   /* 浅土黄色 */
+    }
+    .column-right {
+      background: #edf3ee;   /* 浅墨绿色 */
+    }
+    .column-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .column-left .column-title { color: #7a5230; }
+    .column-right .column-title { color: #3d5540; }
+    .column-subtitle {
+      font-size: 13px;
+      color: #8b7355;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed #d9c8a8;
+    }
+    .column-right .column-subtitle { border-bottom-color: #c3d3c0; }
+
+    /* ==================== 音频卡片 ==================== */
+    .audio-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+      position: relative;
+    }
+    .audio-card:last-child { margin-bottom: 0; }
+    .audio-card .card-label {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      font-size: 11px;
+      color: #9e7a5c;
+      background: #fef5ec;
+      padding: 2px 10px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .column-right .audio-card .card-label {
+      color: #5c7358;
+      background: #eef5ed;
+    }
+    .audio-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      padding-right: 120px;  /* 给右上角标签留空间 */
+      color: #3e2e1f;
+    }
+    .audio-card p {
+      font-size: 13.5px;
+      color: #6b5a4a;
+      line-height: 1.75;
+    }
+    .audio-card audio {
+      width: 100%;
+      margin: 10px 0 12px;
+      border-radius: 8px;
+    }
+
+    /* ==================== 底部总结 ==================== */
+    .page-footer {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      text-align: center;
+    }
+    .page-footer h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #5c3d2e;
+      margin-bottom: 8px;
+    }
+    .page-footer p {
+      font-size: 14px;
+      color: #7a6452;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    /* ==================== 音频配置说明区块 ==================== */
+    .setup-guide {
+      background: #fffef9;
+      border: 1px dashed #d4b896;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-top: 28px;
+      font-size: 13px;
+      color: #6b5a3e;
+      line-height: 2;
+    }
+    .setup-guide h4 { color: #a0522d; margin-bottom: 6px; }
+    .setup-guide code {
+      background: #fdf1e6;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-family: "Courier New", Consolas, monospace;
+      font-size: 12.5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <!-- ========== 顶部通栏 ========== -->
+  <header class="page-header">
+    <div class="subtitle-tag">东丰农民画文化展馆 · 实地录制</div>
+    <h1>多媒体专区 · 社会实践音视频素材</h1>
+    <p class="intro-text">
+      本次社会实践参观东丰农民画文化展馆，实地录制两组讲解员口述素材，完整记录东丰农民画起源、艺术特色、非遗历程、文创产业与时代文化价值，分为基础科普产业篇、艺术文化价值篇两大模块，可点击播放聆听展馆现场讲解。
+    </p>
+  </header>
+
+  <!-- ========== 分类标签（仅展示） ========== -->
+  <div class="category-tags">
+    <span>非遗历史</span>
+    <span>文创产业</span>
+    <span>艺术特色</span>
+    <span>乡村振兴</span>
+  </div>
+
+  <!-- ========== 双栏主体 ========== -->
+  <div class="two-col">
+
+    <!-- ==================== 左栏：讲解者A ==================== -->
+    <div class="column column-left">
+      <div class="column-title">溯源·发展·产业——东丰农民画基础全解</div>
+      <div class="column-subtitle">讲解人A｜基础产业讲解</div>
+
+      <!-- 卡片1 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人A｜基础产业讲解</span>
+        <h3>音频1 · 东丰农民画基础介绍</h3>
+
+        <!--
+        ★★★ 音频配置方法 ★★★
+        1. 在 HTML 文件同级目录新建文件夹：audio
+        2. 将音频文件重命名为 audio1.m4a 放入 audio 文件夹
+        3. 把下面 src="" 改为 src="audio/audio1.m4a"
+        4. 保存 HTML 文件，刷新页面即可播放
+        -->
+        <audio controls preload="none">
+          <!-- 请将 src 改为: src="audio/audio1.m4a" -->
+          <source src="" type="audio/mp4" />
+          您的浏览器不支持音频播放。
+        </audio>
+
+        <p>介绍东丰农民画属地、艺术属性，融合汉满关东民俗的创作风格；梳理起源：1970年代初红石乡红榔头村农民自发组建绘画小组；罗列关键荣誉：1988年获评"中国农民画艺术之乡"、2009年列入吉林省级非遗；重大展出事件：2014年联合国总部精品展、2020年天才妈妈农民画梦想工坊落地，简要点明产业化开端。</p>
+      </div>
+
+      <!-- 卡片2 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人A｜基础产业讲解</span>
+        <h3>音频2 · 东丰农民画艺术风格与称号</h3>
+        <!-- 将 src="" 改为 src="audio/audio2.m4a" -->
+        <audio controls preload="none">
+          <source src="" type="audio/mp4" />
+        </audio>
+        <p>补充细化艺术特点：形象质朴、色彩明快、构图饱满，兼具凝重和谐的关东风情，黑土民俗特色鲜明；扩充县域文化称号：中国农民画之乡、现代民间绘画画乡、民间文化艺术之乡；明确其作为吉林特色民间绘画、中国民间艺术重要分支的定位，补充非遗基础定位介绍。</p>
+      </div>
+
+      <!-- 卡片3 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人A｜基础产业讲解</span>
+        <h3>音频3 · 东丰农民画产业化发展记录</h3>
+        <!-- 将 src="" 改为 src="audio/audio3.m4a" -->
+        <audio controls preload="none">
+          <source src="" type="audio/mp4" />
+        </audio>
+        <p>聚焦产业落地细节：2020年天才妈妈工坊带动农村妇女就近就业增收；皇家鹿苑创业园签约50余名本土画师，人均增收五千余元；文创开发方向：丝巾、服饰、手袋文创，陶瓷农民画产业基地融合景德镇陶瓷创新创作；文旅融合模式：农民画+文创+旅游，创业园非遗文创售卖、榆林村发源地乡村文旅体验，完整讲解非遗产业化带动乡村经济的路径。</p>
+      </div>
+    </div>
+
+    <!-- ==================== 右栏：讲解者B ==================== -->
+    <div class="column column-right">
+      <div class="column-title">乡土·蜕变·时代——东丰农民画精神内涵赏析</div>
+      <div class="column-subtitle">讲解人B｜艺术赏析讲解</div>
+
+      <!-- 卡片4 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人B｜艺术赏析讲解</span>
+        <h3>音频4 · 东丰农民画艺术根源与创作底色</h3>
+        <!-- 将 src="" 改为 src="audio/audio4.m4a" -->
+        <audio controls preload="none">
+          <source src="" type="audio/mp4" />
+        </audio>
+        <p>点明东丰农民画为黑土地孕育的乡土艺术瑰宝，根植本土乡村；创作者均为本地农民，无专业绘画束缚，以真实农耕生活为创作素材；作品真实还原关东民俗、农事劳作、乡村岁月变迁，阐述艺术来源于民间生活的核心特质。</p>
+      </div>
+
+      <!-- 卡片5 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人B｜艺术赏析讲解</span>
+        <h3>音频5 · 东丰农民画数十年发展蜕变历程</h3>
+        <!-- 将 src="" 改为 src="audio/audio5.m4a" -->
+        <audio controls preload="none">
+          <source src="" type="audio/mp4" />
+        </audio>
+        <p>梳理发展蜕变脉络：从早年乡村自娱自乐的民间涂鸦，逐步成长为省级、国家级非遗；本土画师创作聚焦三大主题：关东农耕、鹿乡地域风情、百姓日常幸福生活；讲述小小乡村绘画走出县城、走向全国的发展之路，记录乡村民俗与乡村发展变迁。</p>
+      </div>
+
+      <!-- 卡片6 -->
+      <div class="audio-card">
+        <span class="card-label">讲解人B｜艺术赏析讲解</span>
+        <h3>音频6 · 东丰农民画当代文化价值</h3>
+        <!-- 将 src="" 改为 src="audio/audio6.m4a" -->
+        <audio controls preload="none">
+          <source src="" type="audio/mp4" />
+        </audio>
+        <p>讲解新时代东丰农民画创作变化：保留传统乡土底色，新增乡村振兴、时代新风等现代题材；创作意义：以画作记录历史、传递情感；总结文化价值：承载关东百姓生活智慧与精神寄托，是贴合大众、歌颂乡土与新时代的民间艺术典范，也是东丰县标志性文化名片。</p>
+      </div>
+    </div>
+
+  </div><!-- /two-col -->
+
+  <!-- ========== 底部总结 ========== -->
+  <footer class="page-footer">
+    <h3>社会实践调研总结</h3>
+    <p>两组讲解素材相辅相成，一组梳理东丰农民画历史荣誉、产业发展等客观史实，一组深挖艺术创作内核与时代文化意义，完整呈现本次东丰农民画文化展馆社会实践调研成果。</p>
+  </footer>
+
+  <!-- ========== 音频配置操作说明 ========== -->
+  <div class="setup-guide">
+    <h4>📁 音频配置操作指南（三步完成）</h4>
+    <p>
+      <strong>第一步 · 新建文件夹：</strong>
+      在本 HTML 文件同级目录下，新建文件夹并命名为 <code>audio</code>。<br />
+      <strong>第二步 · 音频改名：</strong>
+      将 6 个音频文件分别重命名为：<br />
+      &nbsp;&nbsp;<code>audio1.m4a</code>、<code>audio2.m4a</code>、<code>audio3.m4a</code>、<code>audio4.m4a</code>、<code>audio5.m4a</code>、<code>audio6.m4a</code><br />
+      并将它们全部放入刚才新建的 <code>audio</code> 文件夹内。<br />
+      <strong>第三步 · 修改路径：</strong>
+      打开本 HTML 文件，找到每个 <code>&lt;audio&gt;</code> 标签内的 <code>src=""</code>，
+      改为对应序号路径，如：<code>src="audio/audio1.m4a"</code>、<code>src="audio/audio2.m4a"</code> … 以此类推。<br />
+      &nbsp;&nbsp;👉 每个音频卡片上方均有独立注释标注对应 src 值，无需修改页面其他代码。<br />
+      <strong>完成：</strong>保存 HTML 文件，双击在浏览器中打开，即可播放音频。
+    </p>
+  </div>
+
+</div><!-- /page-wrapper -->
+
+</body>
+</html>

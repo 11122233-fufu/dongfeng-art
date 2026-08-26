@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-red: #C53030;
+  --color-red-light: #E53E3E;
+  --color-yellow: #D69E2E;
+  --color-yellow-light: #F6E05E;
+  --color-green: #38A169;
+  --color-green-light: #68D391;
+  --color-bg: #FFF8F0;
+  --color-card: #FFFFFF;
+  --color-text: #2C1810;
+  --color-text-muted: #8B7355;
+  --font-display: 'Noto Serif SC', 'Source Han Serif SC', serif;
+  --font-body: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  --font-size-base: 16px;
+}
+
+html.dark {
+  --color-bg: #1E1A16;
+  --color-card: #2C2018;
+  --color-text: #F0E0D0;
+  --color-text-muted: #A09080;
+}
+
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+}

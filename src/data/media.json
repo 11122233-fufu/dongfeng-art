@@ -1,0 +1,64 @@
+{
+  "videos": [
+    {
+      "id": "v001",
+      "title": "【Day1】农民画馆",
+      "duration": "03:25",
+      "description": "社会实践首日，团队走进东丰·中国农民画馆，近距离感受农民画的魅力。",
+      "cover": "/images/video/cover01.webp",
+      "wechatLink": "https://weixin.qq.com/sph/A8ceRHZcaR"
+    },
+    {
+      "id": "v002",
+      "title": "【Day2】姜馆长专访",
+      "duration": "05:10",
+      "description": "专访东丰中国农民画馆姜馆长，聆听画馆背后的故事与非遗传承担当。",
+      "cover": "/images/video/cover02.webp",
+      "wechatLink": "https://weixin.qq.com/sph/AC5PRCcG6G"
+    },
+    {
+      "id": "v003",
+      "title": "【特别篇】我与梅花鹿有个约",
+      "duration": "04:08",
+      "description": "走进东丰鹿乡，感受梅花鹿文化与农民画艺术的交融共生。",
+      "cover": "/images/video/cover03.webp",
+      "wechatLink": "https://weixin.qq.com/sph/AoC8TTOmUR"
+    },
+    {
+      "id": "v004",
+      "title": "【绘者心声】李俊敏·郑亚文",
+      "duration": "06:42",
+      "description": "走进非遗传承领头人李俊敏与鹿斯卡金奖获得者郑亚文，倾听他们心中的乡土笔墨与创作故事。",
+      "cover": "/images/video/cover04.webp",
+      "wechatLink": "https://weixin.qq.com/sph/AFRcZalIh6"
+    },
+    {
+      "id": "v005",
+      "title": "行走的团课｜寻根·辽源",
+      "duration": "02:36",
+      "description": "踏矿工遗迹，寻红色基因，一堂行走在辽源大地上的思政团课。",
+      "cover": "/images/video/cover05.webp",
+      "wechatLink": "https://weixin.qq.com/sph/AdJ0kvmr1p"
+    }
+  ],
+  "audios": [],
+  "photos": [
+    { "id": "img01", "src": "/media/photos/thumb/visit01.jpg", "thumbnail": "/media/photos/thumb/visit01.jpg", "caption": "实践图集 1", "date": "2026-08" },
+    { "id": "img02", "src": "/media/photos/thumb/visit02.jpg", "thumbnail": "/media/photos/thumb/visit02.jpg", "caption": "实践图集 2", "date": "2026-08" },
+    { "id": "img03", "src": "/media/photos/thumb/visit03.jpg", "thumbnail": "/media/photos/thumb/visit03.jpg", "caption": "实践图集 3", "date": "2026-08" },
+    { "id": "img04", "src": "/media/photos/thumb/visit04.jpg", "thumbnail": "/media/photos/thumb/visit04.jpg", "caption": "实践图集 4", "date": "2026-08" },
+    { "id": "img05", "src": "/media/photos/thumb/visit05.jpg", "thumbnail": "/media/photos/thumb/visit05.jpg", "caption": "实践图集 5", "date": "2026-08" },
+    { "id": "img06", "src": "/media/photos/thumb/visit06.jpg", "thumbnail": "/media/photos/thumb/visit06.jpg", "caption": "实践图集 6", "date": "2026-08" },
+    { "id": "img07", "src": "/media/photos/thumb/visit07.jpg", "thumbnail": "/media/photos/thumb/visit07.jpg", "caption": "实践图集 7", "date": "2026-08" },
+    { "id": "img08", "src": "/media/photos/thumb/visit08.jpg", "thumbnail": "/media/photos/thumb/visit08.jpg", "caption": "实践图集 8", "date": "2026-08" },
+    { "id": "img09", "src": "/media/photos/thumb/visit09.jpg", "thumbnail": "/media/photos/thumb/visit09.jpg", "caption": "实践图集 9", "date": "2026-08" },
+    { "id": "img10", "src": "/media/photos/thumb/visit10.jpg", "thumbnail": "/media/photos/thumb/visit10.jpg", "caption": "实践图集 10", "date": "2026-08" },
+    { "id": "img11", "src": "/media/photos/thumb/visit11.png", "thumbnail": "/media/photos/thumb/visit11.png", "caption": "实践图集 11", "date": "2026-08" },
+    { "id": "img12", "src": "/media/photos/thumb/visit12.jpg", "thumbnail": "/media/photos/thumb/visit12.jpg", "caption": "实践图集 12", "date": "2026-08" },
+    { "id": "img13", "src": "/media/photos/thumb/visit13.jpg", "thumbnail": "/media/photos/thumb/visit13.jpg", "caption": "实践图集 13", "date": "2026-08" },
+    { "id": "img14", "src": "/media/photos/thumb/visit14.jpg", "thumbnail": "/media/photos/thumb/visit14.jpg", "caption": "实践图集 14", "date": "2026-08" },
+    { "id": "img15", "src": "/media/photos/thumb/visit15.jpg", "thumbnail": "/media/photos/thumb/visit15.jpg", "caption": "实践图集 15", "date": "2026-08" },
+    { "id": "img17", "src": "/media/photos/thumb/visit17.jpg", "thumbnail": "/media/photos/thumb/visit17.jpg", "caption": "实践图集 16", "date": "2026-08" },
+    { "id": "img18", "src": "/media/photos/thumb/visit18.jpg", "thumbnail": "/media/photos/thumb/visit18.jpg", "caption": "实践图集 17", "date": "2026-08" }
+  ]
+}

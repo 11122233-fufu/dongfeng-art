@@ -1,0 +1,951 @@
+[
+  {
+    "id": "p001",
+    "title": "乡居哺幼",
+    "author": "刘丹",
+    "year": "待考",
+    "category": "民俗",
+    "description": "描绘东北乡村庭院中长辈哺育幼儿的温馨场景，充满生活气息。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p001.webp",
+      "full": "/paintings/full/p001.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以暖色调为主，构图集中于庭院一角，人物表情慈爱柔和。画面通过日常生活中的哺育场景，传递出乡村家庭温情与代际传承的深厚情感。",
+    "likes": 0,
+    "tags": [
+      "育儿",
+      "家庭",
+      "庭院"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p002",
+    "title": "硕果丰收",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "展现东北大地金秋时节果实累累、农民喜获丰收的热烈场面。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p002.webp",
+      "full": "/paintings/full/p002.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以金黄和红色铺满画面，构图饱满热烈。堆积如山的果实与农民脸上的笑容相互映衬，彰显出劳动创造幸福的永恒主题。",
+    "likes": 0,
+    "tags": [
+      "丰收",
+      "秋收",
+      "果实"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p003",
+    "title": "公平有余",
+    "author": "韩华",
+    "year": "待考",
+    "category": "新时代",
+    "description": "以'公平'与'有余（鱼）'为双关主题，表现乡村公正分配、家家富足的新风貌。",
+    "technique": "现代装饰风",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p003.webp",
+      "full": "/paintings/full/p003.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面巧妙运用'鱼'与'余'的谐音，将公平理念与传统吉祥符号结合。构图疏密有致，色彩明快，既传递了社会公平的时代主题，又保留了农民画喜庆祥和的艺术特色。",
+    "likes": 0,
+    "tags": [
+      "公平",
+      "有余",
+      "新村"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p004",
+    "title": "政策惠民",
+    "author": "李生华",
+    "year": "待考",
+    "category": "新时代",
+    "description": "表现国家惠民政策走进乡村、农民切实受益的生动场景。",
+    "technique": "现代装饰风",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p004.webp",
+      "full": "/paintings/full/p004.webp"
+    },
+    "audioUrl": "",
+    "analysis": "采用叙事性构图，将政策宣传、干部下乡、农民笑脸等元素融合在一起。色彩运用上突出红色主调，传递出积极向上的时代氛围。",
+    "likes": 0,
+    "tags": [
+      "政策",
+      "惠农",
+      "下乡"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p005",
+    "title": "乡村晚牧",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "描绘夕阳下牧童赶着牛羊归家的田园牧歌景象。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p005.webp",
+      "full": "/paintings/full/p005.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以暖橙色渲染黄昏氛围，牛羊成群、牧童悠然，画面静谧而富有诗意。将传统农耕文明中人与自然的和谐关系表现得淋漓尽致。",
+    "likes": 0,
+    "tags": [
+      "牧归",
+      "黄昏",
+      "田园"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p006",
+    "title": "农家乐业",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "展现东北农家日常劳作与生活乐趣，勤劳而充实。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p006.webp",
+      "full": "/paintings/full/p006.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以农家院落为中心，人物各司其职——喂鸡、劈柴、编织，充满生活情趣。色调明快，细节丰富，体现了对平凡劳动生活的热爱与赞美。",
+    "likes": 0,
+    "tags": [
+      "农家",
+      "劳作",
+      "生活"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p007",
+    "title": "吉祥彩鸡",
+    "author": "吕言",
+    "year": "待考",
+    "category": "节庆",
+    "description": "以色彩绚丽的雄鸡为主体，寓意吉祥如意、前程似锦。",
+    "technique": "浓彩重抹",
+    "material": "布面·丙烯",
+    "images": {
+      "thumbnail": "/paintings/thumb/p007.webp",
+      "full": "/paintings/full/p007.webp"
+    },
+    "audioUrl": "",
+    "analysis": "雄鸡造型夸张有力，羽毛以大红大绿等高饱和色彩渲染，极具视觉冲击力。'鸡'与'吉'谐音，五彩斑斓的雄鸡象征光明与希望，是东北年俗画中的经典题材。",
+    "likes": 0,
+    "tags": [
+      "彩鸡",
+      "吉祥",
+      "年俗"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p008",
+    "title": "文明新风",
+    "author": "姜海杰",
+    "year": "待考",
+    "category": "新时代",
+    "description": "展现乡村精神文明建设成果，邻里和睦、乡风淳朴。",
+    "technique": "现代装饰风",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p008.webp",
+      "full": "/paintings/full/p008.webp"
+    },
+    "audioUrl": "",
+    "analysis": "将传统美德元素与新农村场景融合——尊老爱幼、互助邻里、文化广场等画面交织。色彩清新明丽，传递出新时代乡村积极健康的精神面貌。",
+    "likes": 0,
+    "tags": [
+      "文明",
+      "新风",
+      "乡风"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p009",
+    "title": "关东三宝",
+    "author": "赵永平",
+    "year": "待考",
+    "category": "民俗",
+    "description": "以浓艳民俗风格描绘人参、貂皮、鹿茸\"关东三宝\"，满溢民族意趣与原始生命力。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p009.webp",
+      "full": "/paintings/full/p009.webp"
+    },
+    "audioUrl": "",
+    "analysis": "美丽关东永不凋，灵参貂羽已超标。鹿茸更蓄凌云气，独领关东第一骄。作品以浓艳色彩和民俗纹样表现东北三宝的神异魅力，构图饱满，寓意关东大地物华天宝。",
+    "likes": 0,
+    "tags": [
+      "关东三宝",
+      "人参",
+      "鹿茸",
+      "民俗"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p010",
+    "title": "我家致富发羊财",
+    "author": "段延民",
+    "year": "待考",
+    "category": "新时代",
+    "description": "孩童被绵羊环绕，色彩浓艳生动活泼，展现农村养殖致富的吉祥景象。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p010.webp",
+      "full": "/paintings/full/p010.webp"
+    },
+    "audioUrl": "",
+    "analysis": "青山绿水肥，恰趁春风起。遍野发羊财，洋洋真得意。画面以孩童与羊群为主体，色彩明快，\"羊\"谐音\"洋\"，寄寓致富后洋洋得意的生活憧憬。",
+    "likes": 0,
+    "tags": [
+      "羊",
+      "致富",
+      "孩童",
+      "吉祥"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p011",
+    "title": "一鹿吉祥",
+    "author": "姜海杰",
+    "year": "待考",
+    "category": "节庆",
+    "description": "以彩鹿绘祥瑞，金线勾繁花，寄寓一路顺遂的美好祈愿。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p011.webp",
+      "full": "/paintings/full/p011.webp"
+    },
+    "audioUrl": "",
+    "analysis": "\"鹿\"与\"禄\"谐音，金线勾勒繁花锦簇，色彩浓艳华丽。将传统吉祥符号与农民画质朴风格融合，表达一路顺遂、吉祥如意的真诚祝福。",
+    "likes": 0,
+    "tags": [
+      "鹿",
+      "吉祥",
+      "金线",
+      "繁花"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p012",
+    "title": "嬉戏",
+    "author": "姜海杰",
+    "year": "待考",
+    "category": "民俗",
+    "description": "表现小鹿嬉戏场景，色彩浓烈，充满童趣与生命力。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p012.webp",
+      "full": "/paintings/full/p012.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以小鹿嬉戏为题材，画面活泼灵动。色彩浓烈饱满，小鹿姿态各异、互相追逐，传递出天真烂漫的童趣和蓬勃的自然生命力。",
+    "likes": 0,
+    "tags": [
+      "小鹿",
+      "嬉戏",
+      "童趣",
+      "动物"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p013",
+    "title": "犟牛",
+    "author": "李俊敏",
+    "year": "待考",
+    "category": "农耕",
+    "description": "绘人与蓝色犟牛角力，色彩浓烈，尽显力量感与东北农耕民俗意趣。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p013.webp",
+      "full": "/paintings/full/p013.webp"
+    },
+    "audioUrl": "",
+    "analysis": "肩扛日月不回头，犁碎晨昏亦未休。纵是冷鞭抽倔骨，依然奋力垦荒畴。作者李俊敏以牛喻人，蓝色犟牛形象夸张有力，表现东北农民倔强不屈、辛勤耕耘的精神品格。",
+    "likes": 0,
+    "tags": [
+      "牛",
+      "农耕",
+      "力量",
+      "李俊敏"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p014",
+    "title": "俸禄有余",
+    "author": "刘艳",
+    "year": "待考",
+    "category": "节庆",
+    "description": "绘凤、鹿与锦鲤，色彩浓艳，寄寓吉祥美好之意。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p014.webp",
+      "full": "/paintings/full/p014.webp"
+    },
+    "audioUrl": "",
+    "analysis": "凤舞太平城，鱼欢碧水清。漫山飞鹿语，俸禄万家盈。\"鹿\"谐音\"禄\"、\"鱼\"谐音\"余\"，凤凰、鹿群、锦鲤三层吉祥符号叠加，构图繁复而不乱，色彩浓艳喜庆。",
+    "likes": 0,
+    "tags": [
+      "凤",
+      "鹿",
+      "锦鲤",
+      "吉祥"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p015",
+    "title": "八仙奔鹿",
+    "author": "吕言",
+    "year": "待考",
+    "category": "民俗",
+    "description": "以红金为主绘林间鹿群与八仙意象，笔触朴拙色彩浓烈，尽显民俗艺术之美。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p015.webp",
+      "full": "/paintings/full/p015.webp"
+    },
+    "audioUrl": "",
+    "analysis": "柞叶披朱锦云悬，飞鸟裁霞红透天。奔鹿凝眸衔紫气，各显神通似八仙。将八仙传说与鹿群意象巧妙融合，红金主色调渲染出热烈奔放的视觉效果。",
+    "likes": 0,
+    "tags": [
+      "八仙",
+      "鹿",
+      "红金",
+      "吕言"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p016",
+    "title": "百鹿图",
+    "author": "张明云",
+    "year": "待考",
+    "category": "民俗",
+    "description": "展现东丰农民画色彩明快的特点，绘百鹿栖于山林，尽显自然生机与祥和意趣。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p016.webp",
+      "full": "/paintings/full/p016.webp"
+    },
+    "audioUrl": "",
+    "analysis": "大肚川山坳，承留御猎风。梅花林里俏，鹿语唱兴隆。百鹿栖于山林、姿态各异，暗合东丰\"皇家鹿苑\"历史渊源，寄寓兴旺隆盛的美好祝愿。",
+    "likes": 0,
+    "tags": [
+      "百鹿",
+      "山林",
+      "祥和",
+      "兴隆"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p017",
+    "title": "百鸟嬉园",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "展现百鸟在农家院落中嬉戏的热闹场景，生机盎然。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p017.webp",
+      "full": "/paintings/full/p017.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以农家院落为中心，各色禽鸟或栖于枝头、或漫步院中、或展翅欲飞，姿态各异。色彩明艳饱满，百鸟齐鸣的热闹场景寓意家宅兴旺、万物和谐。",
+    "likes": 0,
+    "tags": [
+      "禽鸟",
+      "民俗",
+      "庭院"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p018",
+    "title": "冬屋团圆",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "节庆",
+    "description": "描绘冬日农家屋内一家人围坐团聚、共享家宴的温馨场景。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p018.webp",
+      "full": "/paintings/full/p018.webp"
+    },
+    "audioUrl": "",
+    "analysis": "窗外白雪皑皑，屋内暖意融融。画面聚焦东北农家冬夜团聚时刻——热气腾腾的饭菜、围坐的家人、红红的窗花，冷暖对比强烈，传递出亲情温暖与节庆团圆的浓厚氛围。",
+    "likes": 0,
+    "tags": [
+      "冬日",
+      "团圆",
+      "家宴"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p026",
+    "title": "收工",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "描绘夕阳余晖中农人结束一天劳作、扛着农具归家的温馨画面。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p026.webp",
+      "full": "/paintings/full/p026.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以夕阳暖色调渲染收工归家场景，农人们三三两两走在田埂上，脸上洋溢着劳作后的满足。画面构图平实自然，远处炊烟与近处归人相映成趣，表现出农耕生活质朴而深沉的美感。",
+    "likes": 0,
+    "tags": [
+      "农耕",
+      "丰收",
+      "田园劳作"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p019",
+    "title": "发家致富",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "新时代",
+    "description": "画面刻画小女孩张贴春联福字的场景，搭配「户户日子火红、家家生财有道」的对联文字，以细腻的工笔风格展现乡村百姓勤劳奋进、向往富足生活的美好愿景。",
+    "technique": "工笔淡彩农民画技法",
+    "material": "宣纸、国画颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p019.webp",
+      "full": "/paintings/full/p019.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面刻画小女孩张贴春联福字的场景，搭配「户户日子火红、家家生财有道」的对联文字，以细腻的工笔风格展现乡村百姓勤劳奋进、向往富足生活的美好愿景，贴合新时代乡村向好发展的风貌。",
+    "likes": 0,
+    "tags": [
+      "春联",
+      "致富",
+      "乡村生活",
+      "新春"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p020",
+    "title": "锦绣女红",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "将装饰化生肖黑猪纹样与妇女编织针线活的日常场景结合，色彩鲜亮饱满，生动还原乡村传统女红民俗技艺。",
+    "technique": "平涂装饰农民画技法",
+    "material": "画纸、水粉颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p020.webp",
+      "full": "/paintings/full/p020.webp"
+    },
+    "audioUrl": "",
+    "analysis": "作品将装饰化生肖黑猪纹样与妇女编织针线活的日常场景结合，色彩鲜亮饱满，生动还原乡村传统女红民俗技艺，乡土气息浓郁，展现民间手工艺的独特趣味。",
+    "likes": 0,
+    "tags": [
+      "女红",
+      "手工编织",
+      "生肖猪",
+      "民间手艺"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p021",
+    "title": "全家福",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "节庆",
+    "description": "画面以大红福字为背景，呈现祖孙三代阖家合影的温馨场景，孩童手持奖状，一家人神态和睦，展现春节团圆的节庆氛围。",
+    "technique": "勾线平涂农民画技法",
+    "material": "画纸、丙烯颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p021.webp",
+      "full": "/paintings/full/p021.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以大红福字为背景，呈现祖孙三代阖家合影的温馨场景，孩童手持奖状，一家人神态和睦，生动展现春节团圆的节庆氛围，寓意家庭和睦、后辈上进、生活美满。",
+    "likes": 0,
+    "tags": [
+      "团圆",
+      "福字",
+      "家庭",
+      "奖状",
+      "新春节庆"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p022",
+    "title": "童趣放风筝",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "黑底衬托色彩缤纷的各式风筝，孩童结伴在郊野放风筝，小狗相伴左右，还原乡村孩童春日玩乐的日常。",
+    "technique": "高饱和色块拼接平涂技法",
+    "material": "卡纸、水粉颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p022.webp",
+      "full": "/paintings/full/p022.webp"
+    },
+    "audioUrl": "",
+    "analysis": "黑底衬托色彩缤纷的各式风筝，孩童结伴在郊野放风筝，小狗相伴左右，鲜活还原乡村孩童春日玩乐的日常，尽显农耕生活之余悠闲欢乐的乡土童趣。",
+    "likes": 0,
+    "tags": [
+      "乡村童趣",
+      "风筝",
+      "郊外游玩",
+      "农耕闲暇时光"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p023",
+    "title": "文化大院",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "画面聚焦乡村文化大院热闹场景，东北二人转演出吸引村民齐聚围观，搭配民居、车辆与日常休闲人群，展现乡村丰富的民俗文娱生活。",
+    "technique": "黑底重彩平涂农民画技法",
+    "material": "画纸、水粉颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p023.webp",
+      "full": "/paintings/full/p023.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面聚焦乡村文化大院热闹场景，东北二人转演出吸引村民齐聚围观，搭配民居、车辆与日常休闲人群，生动展现乡村丰富的民俗文娱生活，烟火气息浓厚。",
+    "likes": 0,
+    "tags": [
+      "乡村文娱",
+      "二人转",
+      "文化生活",
+      "邻里欢聚"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p024",
+    "title": "乡村振兴新貌",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "新时代",
+    "description": "以四幅分区画面展现乡村振兴成果，果树成林、塘堰养鱼、村村通公路、民居翻新，全方位呈现新时代乡村产业兴旺、人居环境改善的崭新面貌。",
+    "technique": "四格分景式农民画构图技法",
+    "material": "卡纸、丙烯颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p024.webp",
+      "full": "/paintings/full/p024.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以四幅分区画面展现乡村振兴成果，果树成林、塘堰养鱼、村村通公路、民居翻新，全方位呈现新时代乡村产业兴旺、人居环境改善的崭新面貌。",
+    "likes": 0,
+    "tags": [
+      "公路建设",
+      "林果种植",
+      "水产养殖",
+      "美丽乡村"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p025",
+    "title": "一触即发",
+    "author": "刘晓声",
+    "year": "待考",
+    "category": "农耕",
+    "description": "画作以大面积暖橙色表现连片果园，村民分工完成采摘、运输、鲜果加工全流程，色彩热烈明快，描绘秋季苹果丰收的农耕景象。",
+    "technique": "高饱和装饰性平涂技法",
+    "material": "画纸、水彩颜料",
+    "images": {
+      "thumbnail": "/paintings/thumb/p025.webp",
+      "full": "/paintings/full/p025.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画作以大面积暖橙色表现连片果园，村民分工完成采摘、运输、鲜果加工全流程，色彩热烈明快，鲜活描绘秋季苹果丰收、产销忙碌的农耕丰收景象。",
+    "likes": 0,
+    "tags": [
+      "苹果丰收",
+      "采摘运输",
+      "果蔬加工",
+      "秋收劳作"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p027",
+    "title": "中华",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "新时代",
+    "description": "以航天科技、长城、海洋与国风纹样融合，展现中华民族的辉煌成就与文化自信。",
+    "technique": "现代装饰风",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p027.webp",
+      "full": "/paintings/full/p027.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以红日圆月、神舟飞船、万里长城、奔腾海浪与国风女性纹样交织，将传统民族元素与现代科技成就融为一体，色彩浓烈饱满，展现中华民族伟大复兴的时代气象。",
+    "likes": 0,
+    "tags": [
+      "航天",
+      "长城",
+      "海洋",
+      "科技发展",
+      "民族文化"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p028",
+    "title": "世界情中国梦",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "新时代",
+    "description": "多国国旗与和平鸽风筝飘扬，各国孩童携手放风筝，传递世界和平与中国梦想。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p028.webp",
+      "full": "/paintings/full/p028.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以多国国旗风筝、和平鸽与多国籍孩童放风筝为核心，色彩明快活泼，寓意国际友谊、文化交流与少年童趣，传递构建人类命运共同体的中国梦想。",
+    "likes": 0,
+    "tags": [
+      "国际交流",
+      "和平",
+      "风筝",
+      "多国文化",
+      "少年童趣"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p029",
+    "title": "渔获丰年",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "以蓝色调描绘满池鲜鱼、农户捕捞运鱼的丰收场景，展现渔业生产的忙碌与喜悦。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p029.webp",
+      "full": "/paintings/full/p029.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以蓝色调为主，满池鲜鱼跃动、农户分工协作捕捞运鱼，构图饱满富有节奏感。将渔业丰收的忙碌场景与农民画的质朴风格结合，传递乡村产业兴旺的美好愿景。",
+    "likes": 0,
+    "tags": [
+      "渔业丰收",
+      "渔民劳作",
+      "渔获"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p030",
+    "title": "民俗欢歌",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "红底蓝衣人物与林间群鹿交织，展现地方民俗演艺与自然和谐共生的热烈场景。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p030.webp",
+      "full": "/paintings/full/p030.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以红底为主调，蓝衣人物载歌载舞，林间群鹿悠然栖居，人与自然的和谐关系跃然纸上。色彩对比强烈，将地方民俗文化的热烈与山林生态之美融为一体。",
+    "likes": 0,
+    "tags": [
+      "民俗演艺",
+      "地方文化",
+      "山林鹿群"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p031",
+    "title": "童趣冰嬉",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "描绘北方冬日孩童在冰面上滑冰车、抽陀螺的欢乐场景，冰雪童趣跃然纸上。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p031.webp",
+      "full": "/paintings/full/p031.webp"
+    },
+    "audioUrl": "",
+    "analysis": "以冬日冰雪为背景，孩童们滑冰车、抽陀螺、追逐嬉戏，人物动态生动活泼。冷色调中点缀孩童服饰的暖色，将北方传统冰上民俗活动的欢乐氛围表现得淋漓尽致。",
+    "likes": 0,
+    "tags": [
+      "北方冬日",
+      "孩童冰上嬉戏",
+      "冰雪童趣"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p032",
+    "title": "福禄童趣",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "绿底双鹿骑乘孩童、花鸟吉祥纹样交织，展现福鹿吉祥与传统童趣的民俗画卷。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p032.webp",
+      "full": "/paintings/full/p032.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以绿色为底，孩童骑乘双鹿嬉戏，花鸟纹样环绕四周，构图饱满富有装饰感。将福鹿吉祥寓意与天真童趣结合，传递传统民俗中生生不息的美好祝愿。",
+    "likes": 0,
+    "tags": [
+      "福鹿吉祥",
+      "民俗娃娃",
+      "花鸟吉祥",
+      "传统童趣"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p033",
+    "title": "萨满树韵",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "红底神树图腾与篝火民俗集会交融，展现萨满文化与祭祀民俗的神秘魅力。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p033.webp",
+      "full": "/paintings/full/p033.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以红色为底，神树图腾居中而立，篝火映照下人们载歌载舞举行民俗集会。将萨满文化的神秘图腾与民间祭祀场景融合，展现东北乡土深厚的民俗信仰底蕴。",
+    "likes": 0,
+    "tags": [
+      "萨满文化",
+      "祭祀民俗",
+      "民俗图腾",
+      "篝火集会"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p034",
+    "title": "荷塘夜渔",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "蓝调荷塘弯月下，小舟泛波捕鱼，展现水乡劳作与夜景渔趣的诗意画面。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p034.webp",
+      "full": "/paintings/full/p034.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以蓝色调渲染静谧荷塘夜景，弯月高悬，渔人驾小舟撒网捕鱼。荷叶片片、波光粼粼，将水乡农耕渔作的辛劳与诗意融为一体，呈现农耕文明独特的夜色之美。",
+    "likes": 0,
+    "tags": [
+      "荷塘月色",
+      "泛舟捕鱼",
+      "水乡劳作",
+      "夜景渔趣"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p035",
+    "title": "富足多吉",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "绿底多臂民俗吉祥人物、钱币锦鲤羊纹交织，展现吉祥富足与传统纹样的美好寓意。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p035.webp",
+      "full": "/paintings/full/p035.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以绿色为底，多臂吉祥人物居中而坐，钱币、锦鲤、祥羊等传统纹样环绕四周，构图繁复而有序。将民间多臂造型与吉祥符号结合，寄托富足多吉、年年有余的朴素愿望。",
+    "likes": 0,
+    "tags": [
+      "吉祥富足",
+      "民俗多臂造型",
+      "锦鲤祥兽",
+      "传统吉祥纹样"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p036",
+    "title": "雪原鹿境",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "冬日白桦林畔，双鹿漫步雪野，湖畔村落静谧安详，展现东北乡村雪景之美。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p036.webp",
+      "full": "/paintings/full/p036.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以白桦林与雪野为背景，双鹿悠然漫步湖畔，远处村落炊烟袅袅。冷色调中透出宁静与祥和，将东北冬日乡村的自然生态与人文气息完美融合。",
+    "likes": 0,
+    "tags": [
+      "白桦冬景",
+      "湖畔村落",
+      "雪野麋鹿",
+      "乡村雪景"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p037",
+    "title": "民俗秧歌会",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "蓝底旱船秧歌节庆民俗活动，锣鼓喧天、彩绸飞舞，展现传统民间演艺的热烈氛围。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p037.webp",
+      "full": "/paintings/full/p037.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以蓝色为底，旱船、秧歌、锣鼓队组成热闹的民俗游行队伍，人物动态夸张有力、彩绸翻飞。将东北传统节庆集会的欢腾氛围渲染得淋漓尽致。",
+    "likes": 0,
+    "tags": [
+      "旱船秧歌",
+      "民俗节庆",
+      "民间演艺",
+      "传统集会"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p038",
+    "title": "山里人家冬趣",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "雪村里孩童玩雪橇嬉戏，红灯笼与白雪相映，展现东北冬日乡村的质朴生活与童趣。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p038.webp",
+      "full": "/paintings/full/p038.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以雪村为背景，孩童们滑雪橇、堆雪人、追逐嬉戏，红灯笼与皑皑白雪形成鲜明对比。将东北山里人家的冬日日常与孩童天真烂漫的童趣融为一体，生活气息浓厚。",
+    "likes": 0,
+    "tags": [
+      "东北冬日",
+      "雪橇嬉戏",
+      "雪村年味",
+      "乡村生活"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p039",
+    "title": "金秋丰收忙",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "农耕",
+    "description": "大片金黄玉米田地间，全家老少齐上阵参与秋收农忙，展现东北农家丰收时节的忙碌与喜悦。",
+    "technique": "平涂勾线法",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p039.webp",
+      "full": "/paintings/full/p039.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以金黄色为主调，铺满大片玉米田，全家人分工协作掰玉米、装车、晾晒，构图饱满富有节奏。将秋收农忙的热烈氛围与农民画的质朴风格结合，传递农家丰收的喜悦与劳动之美。",
+    "likes": 0,
+    "tags": [
+      "秋收劳作",
+      "玉米田野",
+      "农家丰收",
+      "乡村农忙"
+    ],
+    "copyright": "东丰县文化馆提供"
+  },
+  {
+    "id": "p040",
+    "title": "吉鸡纳祥",
+    "author": "东丰农民画作者",
+    "year": "待考",
+    "category": "民俗",
+    "description": "黄底上多只色彩绚丽的雄鸡纹样，融入传统民间吉祥符号，寄寓大吉大利的美好祝愿。",
+    "technique": "浓彩重抹",
+    "material": "宣纸·水粉",
+    "images": {
+      "thumbnail": "/paintings/thumb/p040.webp",
+      "full": "/paintings/full/p040.webp"
+    },
+    "audioUrl": "",
+    "analysis": "画面以黄色为底，多只雄鸡姿态各异、色彩绚烂，搭配花鸟纹样与传统吉祥图案。将民间鸡谐音吉的寓意融入创作，构图繁复华丽，表达纳祥迎福、大吉大利的朴素愿望。",
+    "likes": 0,
+    "tags": [
+      "雄鸡吉祥",
+      "民间纹样",
+      "花鸟民俗",
+      "大吉寓意"
+    ],
+    "copyright": "东丰县文化馆提供"
+  }
+]
